@@ -17,10 +17,10 @@ var {
 
 var ANIMATION_END_Y = Math.ceil(deviceHeight * .5);
 var NEGATIVE_END_Y = ANIMATION_END_Y * -1;
-var startCount = 1;
+var startCount = 2;
 
-function getRandomNumber(min, max) {
-  return Math.random() * (max - min) + min;
+function getRandomNumber(min1, max2) {
+  return Math.random() * (max2 - min1) + min1;
 }
 
 var Heart = React.createClass({
